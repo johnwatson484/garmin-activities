@@ -1,12 +1,12 @@
 services:
-  hapi-template-ts:
+  garmin-activities:
     extends:
       file: docker-compose.yaml
-      service: hapi-template-ts
+      service: garmin-activities
     build:
       target: development
-    image: hapi-template-ts-test
-    container_name: hapi-template-ts-test
+    image: garmin-activities-test
+    container_name: garmin-activities-test
     command: npm run test
     volumes:
       - ./test:/home/node/test

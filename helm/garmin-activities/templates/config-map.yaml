@@ -1,0 +1,6 @@
+{{- include "helm-library.configmap" (list . "garmin-activities.configmap") -}}
+{{- define "garmin-activities.configmap" -}}
+data:
+  PORT: {{ .Values.container.port | quote }}
+  NODE_ENV: {{ .Values.configMap.environment | quote }}
+{{- end -}}

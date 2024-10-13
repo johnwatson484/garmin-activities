@@ -1,5 +1,5 @@
 services:
-  hapi-template-ts:
+  garmin-activities:
     build: .
-    image: hapi-template-ts
-    container_name: hapi-template-ts
+    image: garmin-activities
+    container_name: garmin-activities

@@ -1,0 +1,3 @@
+{{- include "helm-library.deployment" (list . "garmin-activities.deployment") -}}
+{{- define "garmin-activities.deployment" -}}
+{{- end -}}

@@ -1,0 +1,3 @@
+{{- include "helm-library.ingress" (list . "garmin-activities.ingress") -}}
+{{- define "garmin-activities.ingress" -}}
+{{- end -}}

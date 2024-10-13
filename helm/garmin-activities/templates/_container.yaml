@@ -1,0 +1,2 @@
+{{- define "garmin-activities.container" -}}
+{{- end -}}
