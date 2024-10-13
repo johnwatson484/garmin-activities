@@ -37,6 +37,7 @@
     "@types/nunjucks": "3.2.6",
     "convict": "6.2.4",
     "convict-format-with-validator": "6.2.0",
+    "garmin-connect": "1.6.2",
     "hapi-pino": "12.1.0",
     "joi": "17.13.3",
     "log-timestamp": "0.3.0",

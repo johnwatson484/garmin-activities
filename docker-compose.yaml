@@ -3,3 +3,6 @@ services:
     build: .
     image: garmin-activities
     container_name: garmin-activities
+    environment:
+      GARMIN_USERNAME: ${GARMIN_USERNAME}
+      GARMIN_PASSWORD: ${GARMIN_PASSWORD}

@@ -31,8 +31,20 @@ const config = convict({
   appName: {
     doc: 'The name of the application.',
     format: String,
-    default: 'Hapi Template',
+    default: 'Garmin Activities',
     env: 'APP_NAME',
+  },
+  garminUsername: {
+    doc: 'The Garmin Connect username.',
+    format: String,
+    default: '',
+    env: 'GARMIN_USERNAME',
+  },
+  garminPassword: {
+    doc: 'The Garmin Connect password.',
+    format: String,
+    default: '',
+    env: 'GARMIN_PASSWORD',
   },
 })
 

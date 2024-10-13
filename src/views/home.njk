@@ -1,5 +1,10 @@
 {% extends '_layout.njk' %}
 
 {% block content %}
-  <h1>Hello world</h1>
+  <h1>Activities</h1>
+  <ul>
+    {% for activity in activities %}
+      <li>{{ activity.startTimeLocal }} - {{ activity.activityName }}</li>
+    {% endfor %}
+  </ul>
 {% endblock %}
